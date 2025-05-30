@@ -1,11 +1,17 @@
 import { useParams, Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
 
 function BookDetails() {
   const { id } = useParams();
   const book = useSelector((state) =>
     state.books.books.find((b) => b.id === id)
   );
+
+  useEffect(() => {
+    // Scroll to top when book details are loaded
+    window.scrollTo(0, 0);
+  }, [id]);
 
   if (!book) {
     return (

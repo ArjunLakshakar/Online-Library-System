@@ -103,15 +103,6 @@ export const Books = [
         image: 'https://covers.openlibrary.org/b/id/8469250-L.jpg'
     },
     {
-        id: '7',
-        title: 'Educated',
-        author: 'Tara Westover',
-        description: 'A memoir recounting the author’s journey from a survivalist family to earning a PhD from Cambridge University.',
-        rating: 4.5,
-        category: 'Non-Fiction',
-        image: 'https://covers.openlibrary.org/b/id/9354150-L.jpg'
-    },
-    {
         id: '8',
         title: 'Becoming',
         author: 'Michelle Obama',
@@ -163,7 +154,7 @@ export const Books = [
         description: 'A young genius is trained through war games to prepare for an impending alien invasion.',
         rating: 4.3,
         category: 'Sci-Fi',
-        image: 'https://covers.openlibrary.org/b/id/10547765-L.jpg'
+        image: 'https://covers.openlibrary.org/b/id/10547765-.jpg'
     },
     {
         id: '14',
